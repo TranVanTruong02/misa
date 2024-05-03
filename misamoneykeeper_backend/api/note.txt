@@ -1,0 +1,34 @@
+
+--- Chuyển Thư Mục ---
+
+cd misamoneykeeper_backend
+
+--- Vào Máy Ảo ---
+
+env\Scripts\activate
+
+
+--- Chạy Server ---
+
+python manage.py runserver
+
+
+--- Cập Nhật Bảng Dữ Liệu ---
+
+python manage.py makemigrations
+
+
+--- Cập Nhật Bảng Dữ Liệu ---
+
+python manage.py migrate
+
+(env) C:\Django\moneylover_backend>python manage.py createsuperuser
+Username (leave blank to use 'admin'): truongne
+Email address: trantruong2002@gmail.com
+Password:
+Password (again):
+Error: Your passwords didn't match.
+Password:
+Password (again):
+The password is too similar to the email address.
+Bypass password validation and create user anyway? [y/N]: y
